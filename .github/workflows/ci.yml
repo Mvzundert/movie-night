@@ -1,5 +1,15 @@
 name: Marzun - Laravel CI
 
+on:
+  pull_request:
+    # Run on PR's for master when Opened, Reopened or Synchronized.
+    branches:
+      - master
+    types:
+      - opened
+      - reopened
+      - synchronize
+
 jobs:
   cerberos-laravel-ci:
     runs-on: ubuntu-latest
