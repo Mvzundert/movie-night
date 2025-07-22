@@ -11,7 +11,7 @@ on:
       - synchronize
 
 jobs:
-  cerberos-laravel-ci:
+  marzun-laravel-ci:
     runs-on: ubuntu-latest
 
     steps:
